@@ -1,0 +1,619 @@
+
+@media screen and (max-width:320px){
+   .header-box{
+        margin: 75px 0px 0px 0px;
+        flex-direction: column;
+        /* margin: 10px 0px; */
+        text-align: center;
+        h2{
+            font-size: 14px;
+        }
+        a{
+            margin-top: 10px;
+        }
+     }
+     header{
+        background-color: white;
+         padding: 2px 20px;
+          position: fixed;
+          width: 100%;
+          z-index: 2;
+     }
+   .close-bar{
+    display: flex;
+   }
+   .menubar{
+    display:flex;
+   }
+
+    .nav-bar{
+        display: none;
+        background-color: white;
+        position: absolute;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+  #ul2{
+        margin-top: 20rem;
+    }
+    ul{
+        display: inline-block;
+
+    }
+    .ul1{
+        display: block;
+        margin-bottom: 15px;
+    }
+
+
+
+   .box-grid{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 0px 10px;
+   }
+   .icon2{
+    margin: 10px 0px;
+    padding: 0px 10px;
+   }
+   
+   .card-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 0px;
+    padding: 0px 12px;
+     gap: 8px;
+    
+   }
+   .card{
+     font-size: 13px;
+
+   }
+   .card p{
+    font-size: 11px;
+   }
+   .bt{
+    display: none;
+   }
+
+   .recommendation{
+    flex-direction: column;
+    text-align: center;
+    h5{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    a{
+        font-size: 10px;
+    }
+}
+   .flex-box{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px;
+    padding: 10px;
+    font-size: 15px;
+   }
+
+   .icon3{
+    margin: 10px 0px;
+    padding: 0px 10px;
+   }
+
+     .recommendation1{
+    flex-direction: column;
+    text-align: center;
+    h5{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    a{
+        font-size: 10px;
+    }
+}
+   .flex-box1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px;
+    padding: 10px;
+   }
+
+   .category{
+   margin: 20px 70px;
+   text-align: center;
+    h3{
+  font-size:15px;
+  font-weight: bold;
+    }
+}
+
+.main21{
+    margin: 0px 10px;
+}
+.main-container{
+    
+    margin: 0px;
+    padding: 0px;
+    h2{
+        font-size:1rem;
+        
+    }
+    p{
+        font-size:11px;
+        margin: 5px 0px;
+        line-height: 19px;
+    }
+}
+
+    .recommendation2{
+    margin-top: 0px;
+    flex-direction: column;
+    text-align: center;
+    h5{  
+        font-size: 15px;
+        padding-bottom: 10px;       
+    }
+
+    a{
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+.footer{
+    font-size:1rem;
+    padding: 15px;
+   input{
+    width: 150px;
+   }
+   button{
+    width: 80px;
+    font-size: 12px;
+   }
+   .setting{
+    font-size: 12px;
+   }
+   .date{
+    font-size: 15px;
+    line-height: 19px;
+   }
+   .virtual h3{
+    font-size: 14px;
+   }
+   .registration{
+         font-size: 13px;
+   }
+}
+
+}
+
+
+
+
+@media screen  and (min-width:321px) and (max-width:490px){
+
+    .header-box{
+        flex-direction: column;
+        margin: 75px 0px 0px 0px;
+        text-align: center;
+        h2{
+            font-size: 14px;
+        }
+        a{
+            margin-top: 10px;
+        }
+     }
+     header{
+        background-color: white;
+         padding: 2px 20px;
+          position: fixed;
+          width: 100%;
+          z-index: 2;
+     }
+   .close-bar{
+    display: flex;
+   }
+   .menubar{
+    display:flex;
+   }
+
+    .nav-bar{
+        display: none;
+        background-color: white;
+        position: absolute;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+    #ul2{
+        margin-top: 20rem;
+    }
+    ul{
+        display: inline-block;
+
+    }
+    .ul1{
+        display: block;
+        margin-bottom: 15px;
+    }
+
+
+
+   .box-grid{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 0px 10px;
+   }
+   .icon2{
+    margin: 10px 0px;
+    padding: 0px 10px;
+   }
+   
+   .card-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0px;
+    gap: 5px;
+    
+   }
+   .card{
+     font-size: 13px;
+
+   }
+   .card p{
+    font-size: 10px;
+   }
+   .bt{
+    display: none;
+   }
+
+   .recommendation{
+    flex-direction: column;
+    text-align: center;
+    h5{
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+    a{
+        font-size: 14px;
+    }
+}
+   .flex-box{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px;
+    padding: 10px;
+    font-size: 15px;
+   }
+
+   .icon3{
+    margin: 10px 0px;
+    padding: 0px 10px;
+   }
+
+     .recommendation1{
+    flex-direction: column;
+    text-align: center;
+    h5{
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+    a{
+        font-size: 14px;
+    }
+}
+   .flex-box1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px;
+    padding: 10px;
+   }
+
+   .category{
+   margin: 20px 70px;
+   text-align: center;
+    h3{
+  font-size:15px;
+  font-weight: bold;
+    }
+}
+
+.main21{
+    margin: 0px 10px;
+}
+.main-container{
+    margin: 0px;
+    padding: 0px;
+    h2{
+        font-size:1rem;
+        
+    }
+    p{
+        font-size:14px;
+        margin: 5px 0px;
+    }
+}
+
+    .recommendation2{
+    margin-top: 0px;
+    flex-direction: column;
+    text-align: center;
+    h5{
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+    a{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+}
+
+.footer{
+    
+   input{
+    width: 190px;
+   }
+   button{
+    width: 100px;
+    font-size: 14px;
+   }
+}
+
+}
+
+@media screen and (min-width:491px) and (max-width:797px){
+    
+    header{
+        background-color: white;
+         padding: 2px 20px;
+          position: fixed;
+          width: 100%;
+          z-index: 2;
+     }
+      
+   .close-bar{
+    display: flex;
+   }
+   .menubar{
+    display:flex;
+   }
+
+    .nav-bar{
+        display: none;
+        background-color: white;
+        position: absolute;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+    ul{
+        display: inline-block;
+
+    }
+    .ul1{
+        display: block;
+        margin-bottom: 15px;      
+    }
+    #ul2{
+        margin-top: 20rem;
+    }
+    .header-box{
+        margin: 75px 60px 0px 60px;
+        text-align: center;
+        h2{
+            font-size: 15px;
+        }
+        a{
+            margin-top: 10px;
+        }
+    }
+     
+    
+   .box-grid{
+    display: grid;
+    margin: 20px 40px;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0px 10px;
+   }
+   .icon2{
+    padding: 10px 0px 25px 0px;
+   }
+   
+   .card-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0px 40px;  
+    padding: 10px; 
+   }
+   .card{ 
+    padding: 20px 0px;
+    gap: 0px;
+   }
+   .course-fill{
+    font-size: 12px;
+   }
+   .bt{
+    display: none;
+   }
+   
+   .recommendation{
+    text-align: center;
+    h5{
+        font-size: 20px;
+       padding-bottom: 10px;
+    }
+
+    a{
+        font-size: 16px;
+    }
+}
+.flex-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 40px;
+    padding: 10px;
+   }
+   .icon3{
+    padding: 10px 0px 25px 0px;
+   }
+
+   .recommendation1{
+    text-align: center;
+    h5{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    a{
+        font-size: 14px;
+    }
+}
+   .flex-box1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 40px;
+    padding: 10px;
+   }
+
+   .main21{
+    margin: 0px 40px;
+    
+}
+.main-container{
+    margin: 0px;
+    padding: 0px;
+    h2{
+        font-size:1.2rem;
+        
+    }
+    p{
+        font-size:14px;
+    
+    }
+}
+
+}
+@media screen and (min-width:797px) and (max-width:1067px){
+    
+    .ul1{
+     display: flex;
+   }
+   
+   .close-bar{
+    display: none;
+   }
+   .menubar{
+    display:none;
+   }
+
+   .box-grid{
+    margin: 0px 40PX;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+   }
+
+   .card-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0px 40px;  
+    padding: 10px; 
+   }
+   .card{ 
+    padding: 20px 0px;
+    gap: 0px;
+   }
+   .course-fill{
+    font-size: 13px;
+   }
+   
+    .recommendation{
+    h5{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    a{
+        font-size: 16px;
+    }
+}
+
+.flex-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 40px;
+    padding: 10px;
+   }
+
+   .recommendation1{
+    text-align: center;
+    h5{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    a{
+        font-size: 14px;
+    }
+}
+   .flex-box1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 40px;
+    padding: 10px;
+   }
+
+   .main21{
+    margin: 0px 40px;
+    
+}
+
+}
+
+@media screen and (min-width:1000px) and (max-width:1080px){
+
+
+   .card-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px; 
+   }
+   .card{ 
+    padding: 20px 0px;
+   }
+    .recommendation{
+    h5{
+        font-size: 20px;
+         
+    }
+    a{
+        font-size: 16px;
+    }
+}
+
+.flex-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   }
+
+   .flex-box1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   }
+    
+}
